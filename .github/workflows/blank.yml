@@ -45,10 +45,10 @@ jobs:
     - name: who-am-i action
       uses: microsoft/powerplatform-actions/who-am-i@v0
       with:
-        environment-url: ${{env.ENVIRONMENT_URL}}
-        app-id: ${{env.CLIENT_ID}}
-        client-secret: ${{ secrets.PowerPlatformSPN }}
-        tenant-id: ${{env.TENANT_ID}}
+        environment-url: 'https://orgef0164c5.crm4.dynamics.com'
+        app-id: 'cd4c947b-cd68-4d8f-8d00-fa33c5d0817f'
+        client-secret: 'AvO8Q~z4vJ6qhgbxsPGdhtsxsSpsMOFQpBdMTdlE'
+        tenant-id: 'e6e624e9-9988-488a-a024-826236fe6ea4'
 
 
     - name: export-solution action
